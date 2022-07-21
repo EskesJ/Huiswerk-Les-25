@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Huiswerk les 25</title>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link id="paginastijl" rel="stylesheet" type="text/css" href="css/default.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mr+Bedfort&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1 class="text-center mb-0 mt-5">Japan</h1>
+        <p id="header-text" class="">Het land van de samurai</p>
+        <img src="images/japan6.jpg" class="samurai samurai-links" alt="plaatje van een samurai">
+        <img src="images/japan6.jpg" class="samurai" alt="plaatje van een samurai">
+      </div>
+    </header>
+    <div class="action-bar"></div>
+    <main>
+      <div class="container">
+        <h2 class="text-center mt-4">De Samurai Quiz</h2>
+        <p class="fs-2 text-center">Beantwoord de onderstaande 7 vragen en kom er achter of je een echte samurai kenner bent!</p>
+        <form class="samurai-quiz" action="index.html" method="post">
+          <div class="row justify-content-around">
+            <div class="vraag1 mt-5 col-5">
+              <p class="fs-2 text-center">1. Welke van de onderstaande wapens gebruikten de Samurai?</p>
+              <div class="wrapper-antwoorden">
+                <input checked="checked" id="Yari" type="radio" name="wapen" value="Yari"><label for="Yari">Yari</label>
+                <input id="Nobori" type="radio" name="wapen" value="Nobori"><label for="Nobori">Nobori</label>
+                <input id="Katana" type="radio" name="wapen" value="Katana"><label for="Katana">Katana</label>
+              </div>
+            </div>
+            <div class="vraag2 mt-5 col-5">
+              <p class="fs-2 text-center">2. Hoe heet de levensfilosofie die de Samurai volgen?</p>
+              <div class="wrapper-antwoorden">
+                <input checked="checked" id="Ashigaru" type="radio" name="filosofie" value="Ashigaru"><label for="Ashigaru">Ashigaru</label>
+                <input id="Buddhism" type="radio" name="filosofie" value="Buddhism"><label for="Buddhism">Buddhism</label>
+                <input id="Bushido" type="radio" name="filosofie" value="Bushido"><label for="Bushido">Bushido</label>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-around">
+            <div class="vraag3 mt-5 col-5">
+              <p class="fs-2 text-center">3. Wat betekent de term Samurai?</p>
+              <div class="wrapper-antwoorden">
+                <input checked="checked" id="Dienen" type="radio" name="term" value="Dienen"><label for="Dienen">Hij die dient</label>
+                <input id="Vechten" type="radio" name="term" value="Vechten"><label for="Vechten">Hij die vecht</label>
+                <input id="Opofferen" type="radio" name="term" value="Opofferen"><label for="Opofferen">Hij die zich opoffert</label>
+              </div>
+            </div>
+            <div class="vraag4 mt-5 col-5">
+              <p class="fs-2 text-center">4. Sommige Samurai pleegden zelfmoord voor het behouden van hen eer. Hoe heet deze zelfdoding? </p>
+              <div class="wrapper-antwoorden">
+                <input checked="checked" id="Seppuku" type="radio" name="zelfmoord" value="Seppuku"><label for="Seppuku">Seppuku</label>
+                <input id="Kapussu" type="radio" name="zelfmoord" value="Kapussu"><label for="Kapussu">Kapussu</label>
+                <input id="Sassuku" type="radio" name="zelfmoord" value="Sassuku"><label for="Sassuku">Sassuku</label>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-around">
+            <div class="vraag5 mt-5 col-5">
+              <p class="fs-2 text-center">5. Hoe noem je een Samurai zonder meester?</p>
+              <div class="wrapper-antwoorden">
+                <input checked="checked" id="Ronin" type="radio" name="zonder-meester" value="Ronin"><label for="Ronin">Ronin</label>
+                <input id="Musha" type="radio" name="zonder-meester" value="Musha"><label for="Musha">Musha</label>
+                <input id="Shika" type="radio" name="zonder-meester" value="Shika"><label for="Shika">Shika</label>
+              </div>
+            </div>
+            <div class="vraag6 mt-5 col-5">
+              <p class="fs-2 text-center">6. Tot welke klasse behoorden Samurai?</p>
+              <div class="wrapper-antwoorden">
+                <input checked="checked" id="Ko" type="radio" name="klasse" value="Ko"><label for="Ko">Ko</label>
+                <input id="No" type="radio" name="klasse" value="No"><label for="No">No</label>
+                <input id="Shi" type="radio" name="klasse" value="Shi"><label for="Shi">Shi</label>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="vraag7 mt-5 col-5">
+              <p class="fs-2 text-center">7. Wat is de meest eervolle manier om te sterven voor een Samurai?</p>
+              <div class="wrapper-antwoorden">
+                <input checked="checked" id="gevecht" type="radio" name="sterven" value="gevecht"><label for="gevecht">Tijdens een gevecht</label>
+                <input id="vredig" type="radio" name="sterven" value="vredig"><label for="vredig">Thuis in vrede</label>
+                <input id="ongeluk" type="radio" name="sterven" value="ongeluk"><label for="ongeluk">In een ongeluk</label>
+              </div>
+            </div>
+          </div>
+          <a href="#uitslag"><input type="button" value="Resultaten indienen" onclick="checker()"></a>
+        </form>
+        <div id="uitslag" class="uitslag text-center fs-1"></div>
+      </div>
+    </main>
+    <div class="action-bar"></div>
+    <footer>
+      <div class="container">
+        <p class="fs-3">Huiswerk opdracht les 25</p>
+        <p class="fs-3"><a target="_blank "href="https://github.com/EskesJ">mijn Github</a></p>
+      </div>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/javascript.js"></script>
+  </body>
+</html>
